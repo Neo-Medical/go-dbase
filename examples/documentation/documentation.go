@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Valentin-Kaiser/go-dbase/dbase"
+	"github.com/Neo-Medical/go-dbase/dbase"
 )
 
 type TableInfo struct {

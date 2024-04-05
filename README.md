@@ -4,12 +4,12 @@
 
 # Microsoft Visual FoxPro / dbase library for Go
 
-[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/Valentin-Kaiser/go-dbase)
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Valentin-Kaiser/go-dbase/blob/main/LICENSE)
-[![Linters](https://github.com/Valentin-Kaiser/go-dbase/workflows/Linters/badge.svg)](https://github.com/Valentin-Kaiser/go-dbase)
-[![CodeQL](https://github.com/Valentin-Kaiser/go-dbase/workflows/CodeQL/badge.svg)](https://github.com/Valentin-Kaiser/go-dbase)
-[![Examples](https://github.com/Valentin-Kaiser/go-dbase/workflows/Examples/badge.svg)](https://github.com/Valentin-Kaiser/go-dbase)
-[![Go Report](https://goreportcard.com/badge/github.com/Valentin-Kaiser/go-dbase)](https://goreportcard.com/report/github.com/Valentin-Kaiser/go-dbase)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/Neo-Medical/go-dbase)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Neo-Medical/go-dbase/blob/main/LICENSE)
+[![Linters](https://github.com/Neo-Medical/go-dbase/workflows/Linters/badge.svg)](https://github.com/Neo-Medical/go-dbase)
+[![CodeQL](https://github.com/Neo-Medical/go-dbase/workflows/CodeQL/badge.svg)](https://github.com/Neo-Medical/go-dbase)
+[![Examples](https://github.com/Neo-Medical/go-dbase/workflows/Examples/badge.svg)](https://github.com/Neo-Medical/go-dbase)
+[![Go Report](https://goreportcard.com/badge/github.com/Neo-Medical/go-dbase)](https://goreportcard.com/report/github.com/Neo-Medical/go-dbase)
 
 **Golang package for reading and writing FoxPro dBase table and memo files.**
 
@@ -30,7 +30,7 @@ that interface with dBase databases.
 
 There are several similar packages but they are not suited for our use case, this package implements the following features:
 
-| Feature | [go-dbase](https://github.com/Valentin-Kaiser/go-dbase) | [go-dbf](https://github.com/LindsayBradford/go-dbf) | [go-foxpro-dbf](https://github.com/SebastiaanKlippert/go-foxpro-dbf) | 
+| Feature | [go-dbase](https://github.com/Neo-Medical/go-dbase) | [go-dbf](https://github.com/LindsayBradford/go-dbf) | [go-foxpro-dbf](https://github.com/SebastiaanKlippert/go-foxpro-dbf) | 
 | --- | --- | --- | --- |
 | Encoding support ¹ | ✅ | ✅[*](https://github.com/LindsayBradford/go-dbf/issues/3) | ✅ |
 | Read | ✅ | ✅ | ✅ |
@@ -112,7 +112,7 @@ The following encodings are supported by this package:
 
 ## Installation
 ``` 
-go get github.com/Valentin-Kaiser/go-dbase@latest
+go get github.com/Neo-Medical/go-dbase@latest
 ```
 
 ## Examples

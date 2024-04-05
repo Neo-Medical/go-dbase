@@ -1,4 +1,4 @@
-module github.com/Valentin-Kaiser/go-dbase
+module github.com/Neo-Medical/go-dbase
 
 go 1.20
 
